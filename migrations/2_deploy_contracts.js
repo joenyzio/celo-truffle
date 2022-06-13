@@ -1,4 +1,4 @@
-var HelloCelo = artifacts.require("HelloCelo");
+var SimpleToken = artifacts.require("SimpleToken");
 module.exports = function (deployer) {
-  deployer.deploy(HelloCelo);
+  deployer.deploy(SimpleToken);
 };
