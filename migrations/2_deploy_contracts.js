@@ -1,4 +1,4 @@
-var HelloCelo = artifacts.require("HelloCelo");
+var SimpleWallet = artifacts.require("SimpleWallet");
 module.exports = function (deployer) {
-  deployer.deploy(HelloCelo);
+  deployer.deploy(SimpleWallet);
 };
