@@ -1,4 +1,4 @@
-var HelloCelo = artifacts.require("HelloCelo");
+var SimpleSupplyChain = artifacts.require("SimpleSupplyChain");
 module.exports = function (deployer) {
-  deployer.deploy(HelloCelo);
+  deployer.deploy(SimpleSupplyChain);
 };
