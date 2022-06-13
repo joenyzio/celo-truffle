@@ -1,4 +1,5 @@
-var HelloCelo = artifacts.require("HelloCelo");
+var NumberStorage = artifacts.require('NumberStorage')
+ 
 module.exports = function (deployer) {
-  deployer.deploy(HelloCelo);
-};
+ deployer.deploy(NumberStorage)
+}
